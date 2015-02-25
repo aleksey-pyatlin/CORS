@@ -1,14 +1,19 @@
 ﻿{
-	"version": "1.0.0-*",
-	"dependencies": {
-	},
+    "version": "1.0.0-*",
+    "dependencies": {
+         "Microsoft.Framework.ConfigurationModel": "1.0.0-*",
+         "Microsoft.Framework.DependencyInjection": "1.0.0-*",
+         "Microsoft.Framework.OptionsModel": "1.0.0-*",
+         "Microsoft.AspNet.Http": "1.0.0-*",
+         "Microsoft.Framework.NotNullAttribute.Internal": { "version": "1.0.0-*", "type": "build" }
+    },
 
     "frameworks" : {
-        "aspnet50" : { 
+        "aspnet50" : {
             "dependencies": {
             }
         },
-        "aspnetcore50" : { 
+        "aspnetcore50" : {
             "dependencies": {
                 "System.Runtime": "4.0.20-beta-*"
             }
